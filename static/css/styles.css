@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    direction: rtl;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 396px;
+    text-align: center;
+  }
+  
+  .form-container input {
+    width: 90%;
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .login-btn:hover {
+    background-color: #165fcb;
+  }
+  
+  .forgot-link {
+    display: block;
+    margin: 12px 0;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .create-account-btn {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .info-container {
+    margin-right: 60px;
+    max-width: 400px;
+  }
+  
+  .info-container h1 {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .info-container p {
+    font-size: 24px;
+    color: #1c1e21;
+  }
+  
+  
+  
+  .create-account-btn:hover {
+    background-color: #36a420;
+  }
+  
