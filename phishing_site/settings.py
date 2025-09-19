@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'fake_login',  # التطبيق الذي يحتوي على نموذج تسجيل الدخول المزيف
+    'fake_login', 
 ]
 
 MIDDLEWARE = [
